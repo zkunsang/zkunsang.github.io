@@ -1,0 +1,24 @@
+{
+  "name": "zkunsang.github.io.git",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "gem": "^2.4.3",
+    "jekyll": "^3.0.0-beta1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zkunsang/zkunsang.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zkunsang/zkunsang.github.io/issues"
+  },
+  "homepage": "https://github.com/zkunsang/zkunsang.github.io#readme"
+}
