@@ -1,0 +1,5 @@
+
+mysqldump --skip-extended-insert -htest-dramadb.ca4xkwzbd0j5.ap-northeast-2.rds.amazonaws.com -uadmin -pday7games --compact game > dump_mysql.sql
+
+
+./mysql2sqlite ../output_folder/export_game_db/dump_mysql.sql | sqlite3 game.db
