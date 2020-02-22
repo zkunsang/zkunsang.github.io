@@ -1,0 +1,13 @@
+maxmemory
+maxmemory-policy
+swap
+
+client-output-buffer-limit 레디스는 복제를 위해 스냅샷을 생성하고 스냅샷 데이터를 슬레이브 노드로 전송하기 위해 버퍼를 생성하는데 이 버퍼의 크기가 지정된 크기보다 커지면 슬레이브의 연결을 강제로 끊게 된다.
+
+AOP (append only mode)
+COW (copy on write)
+
+redis.conf
+config set 명령
+config set으로 실시간 반영후에 재시작을 하면 설정은 날라가게 된다.
+설정후 redis.conf에다가 다시 세팅을 해주도록하자
